@@ -1,9 +1,14 @@
 .metadata
 .recommenders
-
 RemoteSystemsTempFiles/
 
-bin
-.settings
-.classpath
-.project
+01-Pacotes/bin
+01-Pacotes/.settings
+01-Pacotes/.classpath
+01-Pacotes/.project
+
+
+#bin
+#.settings
+#.classpath
+#.project
