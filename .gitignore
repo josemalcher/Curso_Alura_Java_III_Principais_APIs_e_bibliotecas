@@ -7,6 +7,10 @@ RemoteSystemsTempFiles/
 01-Pacotes/.classpath
 01-Pacotes/.project
 
+02-Jar_Javadoc/bin
+02-Jar_Javadoc/.settings
+02-Jar_Javadoc/.classpath
+02-Jar_Javadoc/.project
 
 #bin
 #.settings
