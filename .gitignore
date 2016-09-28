@@ -12,6 +12,11 @@ RemoteSystemsTempFiles/
 02-Jar_Javadoc/.classpath
 02-Jar_Javadoc/.project
 
+03-JavaLang/bin
+03-JavaLang/.settings
+03-JavaLang/.classpath
+03-JavaLang/.project
+
 #bin
 #.settings
 #.classpath
