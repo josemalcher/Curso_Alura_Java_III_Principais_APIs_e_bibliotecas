@@ -18,12 +18,12 @@ public class TestaJavaLang {
 		Cliente joao = new Cliente();
 		armario.adiciona(joao);
 		
-		//Casting
+		//Casting - Responsabilidade do desenvolvedor
 		Conta c1NoArmario = (Conta)armario.pega(0);
 		Cliente joaoNoArmario = (Cliente)armario.pega(2);
 		
 		
-		System.out.println(c1NoArmario.getSaldo());
+		System.out.println(c1);
 		
 		
 		
