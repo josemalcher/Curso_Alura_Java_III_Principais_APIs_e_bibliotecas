@@ -8,7 +8,7 @@ public class TestaJavaLang {
 	public static void main(String[] args) {
 		
 		Conta c1 = new Conta(200);
-		Conta c2 = new Conta(300);
+		Conta c2 = new Conta(200);
 		
 		GuardadorDeObjetos armario = new GuardadorDeObjetos();
 		armario.adiciona(c1);
@@ -25,6 +25,12 @@ public class TestaJavaLang {
 		
 		System.out.println(c1);
 		
+		//comparando 2 objetos - valores semanticos
+		if(c1.equals(c2)){
+			System.out.println("São iguais");
+		}else{
+			System.out.println("São Diferentes");
+		}
 		
 		
   	}
