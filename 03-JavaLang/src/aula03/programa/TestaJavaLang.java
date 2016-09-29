@@ -32,6 +32,14 @@ public class TestaJavaLang {
 			System.out.println("São Diferentes");
 		}
 		
+		System.out.println();
+		System.out.println("Sobre Métodos STRING");
+		
+		String curso = "fj11";
+		curso = curso.replace("j", "k");
+		curso = curso.toUpperCase();
+		System.out.println(curso);
+		
 		
   	}
 }
