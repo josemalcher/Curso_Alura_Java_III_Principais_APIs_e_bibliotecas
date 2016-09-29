@@ -17,6 +17,11 @@ RemoteSystemsTempFiles/
 03-JavaLang/.classpath
 03-JavaLang/.project
 
+04-Pacote_JavaIO/bin
+04-Pacote_JavaIO/.settings
+04-Pacote_JavaIO/.classpath
+04-Pacote_JavaIO/.project
+
 #bin
 #.settings
 #.classpath
