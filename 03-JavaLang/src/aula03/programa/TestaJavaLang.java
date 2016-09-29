@@ -1,5 +1,6 @@
 package aula03.programa;
 
+import aula03.modelo.Cliente;
 import aula03.modelo.Conta;
 import aula03.modelo.GuardadorDeObjetos;
 
@@ -13,7 +14,15 @@ public class TestaJavaLang {
 		armario.adiciona(c1);
 		armario.adiciona(c2);
 		
-		Conta c1NoArmario = armario.pega(0);
+		//adicionando Cliente
+		Cliente joao = new Cliente();
+		armario.adiciona(joao);
+		
+		//Casting
+		Conta c1NoArmario = (Conta)armario.pega(0);
+		Cliente joaoNoArmario = (Cliente)armario.pega(2);
+		
+		
 		System.out.println(c1NoArmario.getSaldo());
 		
 		

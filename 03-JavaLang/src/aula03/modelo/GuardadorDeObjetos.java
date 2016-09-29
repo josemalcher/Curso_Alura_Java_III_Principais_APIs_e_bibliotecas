@@ -1,21 +1,21 @@
 package aula03.modelo;
 
 public class GuardadorDeObjetos {
-	private Conta[] contas;
+	private Object[] contas;
 	private int posicaoLivre;
 	
 	public GuardadorDeObjetos(){
-		contas = new Conta[100];
+		contas = new Object[100];
 		posicaoLivre = 0;
 	}
 	
 	
-	public void adiciona(Conta nova){
+	public void adiciona(Object nova){
 		contas[posicaoLivre] = nova;
 		posicaoLivre++;
 	}
 	
-	public Conta pega(int posicao){
+	public Object pega(int posicao){
 		return contas[posicao];
 	}
 	
