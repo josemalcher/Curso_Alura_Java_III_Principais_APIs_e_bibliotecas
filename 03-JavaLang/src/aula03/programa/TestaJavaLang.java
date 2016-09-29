@@ -40,6 +40,12 @@ public class TestaJavaLang {
 		curso = curso.toUpperCase();
 		System.out.println(curso);
 		
+		System.out.println();
+		System.out.println("Sobre Métodos Matemáticos Math");
+		
+		double pi = 3.14;
+		long numeroArrendodado = Math.round(pi);
+		System.out.println(numeroArrendodado);
 		
   	}
 }
