@@ -1,5 +1,7 @@
 package aula03.labs02;
 
+import java.io.PrintStream;
+
 public class TestaInteger {
 	public static void main(String[] args) {
 		
@@ -11,6 +13,10 @@ public class TestaInteger {
 		}else{
 			System.out.println("Diferente");
 		}
+		
+		PrintStream saida = System.out;
+		saida.println("olá");
+		
 		
 	}
 }
