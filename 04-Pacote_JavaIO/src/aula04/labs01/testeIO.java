@@ -1,6 +1,7 @@
 package aula04.labs01;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -15,7 +16,8 @@ Cuidado: existe mais de uma classe chamada InputStream: queremos a do pacote jav
 public class testeIO {
 	public static void main(String[] args) throws IOException {
 
-		InputStream is = System.in;
+		//InputStream is = System.in;
+		InputStream is =  new FileInputStream("arquivo.txt");
 		InputStreamReader isr = new InputStreamReader(is);
 		BufferedReader br = new BufferedReader(isr);
 
