@@ -1,2 +1,0 @@
-Lendo do arquivo
-que pode ter varias linhas
