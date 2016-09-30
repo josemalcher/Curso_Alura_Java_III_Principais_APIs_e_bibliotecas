@@ -26,6 +26,8 @@ public class testeIO {
 			System.out.println(linha);
 			linha = br.readLine();
 		}
+		
+		br.close();
 
 	}
 }
