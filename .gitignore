@@ -22,6 +22,11 @@ RemoteSystemsTempFiles/
 04-Pacote_JavaIO/.classpath
 04-Pacote_JavaIO/.project
 
+5-Collections-framework/bin
+5-Collections-framework/.settings
+5-Collections-framework/.classpath
+5-Collections-framework/.project
+
 #bin
 #.settings
 #.classpath
