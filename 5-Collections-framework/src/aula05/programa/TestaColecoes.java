@@ -1,6 +1,8 @@
 package aula05.programa;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 import aula05.modelo.Conta;
 
@@ -11,6 +13,7 @@ public class TestaColecoes {
 		ArrayList<String> nomes = new ArrayList<String>();
 		nomes.add("jose");
 		nomes.add("maria");
+		nomes.add("ana");
 		
 		System.out.println(nomes.get(0));
 		System.out.println(nomes.contains("jose"));
@@ -22,8 +25,11 @@ public class TestaColecoes {
 		for(String nome: nomes){
 			System.out.println(nome);
 		}
-		
-		
+		System.out.println("****** Ordenado");
+		Collections.sort(nomes);
+		for(String nome: nomes){
+			System.out.println(nome);
+		}
 		
 		ArrayList<Conta> contas = new ArrayList<Conta>();
 		Conta c1 = new Conta(500);
