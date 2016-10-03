@@ -33,6 +33,9 @@ public class TestaOrdenacao {
 			System.out.println(conta);
 		}
 		
+		System.out.println();
+		System.out.println(contas);
+		
 		
 		
 	}
