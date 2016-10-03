@@ -3,9 +3,11 @@ package aula05.programa;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import aula05.modelo.Conta;
@@ -89,7 +91,17 @@ public class TestaColecoes {
 		contas1.add(con1);
 		contas1.add(con2);
 		System.out.println("Quantidades de Contas " + contas1.size());
+		//RETORNO: Quantidades de Contas 1
 		
+		System.out.println("*****");
+		Map<String, Conta> contas2 = new HashMap<String, Conta>();
+		Conta co1 = new Conta(200);
+		Conta co2 = new Conta(200);
+		contas2.put("diretor", co1);
+		contas2.put("gerente", co2);
+		System.out.println(contas2.get("diretor").getSaldo());
+		System.out.println(contas2.get("gerente").getSaldo());
+		System.out.println("Quantidades de Contas " + contas2.size());
 		
 	}
 }
