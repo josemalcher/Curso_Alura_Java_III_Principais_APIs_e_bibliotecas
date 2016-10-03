@@ -37,7 +37,9 @@ public class TestaColecoes {
 		 
 		contas.add(c1);
 		contas.add(c2);
-		
+
+		//Collections vai veriricar o método compareTo de Conta
+		//comparar elas e ordenar
 		Collections.sort(contas);
 		
 		//System.out.println(contas.get(0));
