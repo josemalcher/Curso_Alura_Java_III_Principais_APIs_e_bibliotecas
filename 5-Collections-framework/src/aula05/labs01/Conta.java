@@ -6,7 +6,7 @@ package aula05.labs01;
  *
  * @author José Malcher Junior
  */
-public class Conta implements Comparable<Conta>{
+public class Conta /*implements Comparable<Conta>*/{
 	protected double saldo;
 	private int numero;
 	
@@ -81,14 +81,14 @@ public class Conta implements Comparable<Conta>{
 		return true;
 	}
 
-	//implemetando comparação de objetos - referencias de saldos contas
+/*	//implemetando comparação de objetos - referencias de saldos contas
 	@Override
 	public int compareTo(Conta outra) {
 		if(this.saldo < outra.saldo) return -1;
 		if(this.saldo > outra.saldo) return 1;
 		return 0;
 	}
-
+*/
 	public int getNumero() {
 		return numero;
 	}
