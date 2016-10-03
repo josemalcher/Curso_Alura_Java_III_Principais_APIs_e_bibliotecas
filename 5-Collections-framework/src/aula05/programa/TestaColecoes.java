@@ -1,7 +1,6 @@
 package aula05.programa;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 import aula05.modelo.Conta;
@@ -30,13 +29,16 @@ public class TestaColecoes {
 		for(String nome: nomes){
 			System.out.println(nome);
 		}
+		//String são comparáveis
 		
 		ArrayList<Conta> contas = new ArrayList<Conta>();
-		Conta c1 = new Conta(500);
+		Conta c1 = new Conta(1500);
 		Conta c2 = new Conta(700);
 		 
 		contas.add(c1);
 		contas.add(c2);
+		
+		Collections.sort(contas);
 		
 		//System.out.println(contas.get(0));
 		for(Conta conta: contas){

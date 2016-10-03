@@ -6,7 +6,7 @@ package aula05.modelo;
  *
  * @author José Malcher Junior
  */
-public class Conta {
+public class Conta implements Comparable<Conta>{
 	protected double saldo;
 	
 	public Conta(double saldo){
@@ -78,6 +78,14 @@ public class Conta {
 		if (Double.doubleToLongBits(saldo) != Double.doubleToLongBits(other.saldo))
 			return false;
 		return true;
+	}
+
+	//implemetando comparação de objetos - referencias de saldos contas
+	@Override
+	public int compareTo(Conta outra) {
+		if(this.saldo < outra.saldo) return -1;
+		if(this.saldo > outra.saldo) return 1;
+		return 0;
 	}
 	
 	
