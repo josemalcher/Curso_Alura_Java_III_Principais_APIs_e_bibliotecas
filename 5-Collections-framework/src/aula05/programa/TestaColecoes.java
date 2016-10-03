@@ -2,14 +2,17 @@ package aula05.programa;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 import aula05.modelo.Conta;
 
 public class TestaColecoes {
 	public static void main(String[] args) {
 		
-		
-		ArrayList<String> nomes = new ArrayList<String>();
+		//Alterando para LIST
+		//ArrayList<String> nomes = new ArrayList<String>();
+		List<String> nomes = new LinkedList<String>();
 		nomes.add("jose");
 		nomes.add("maria");
 		nomes.add("ana");
