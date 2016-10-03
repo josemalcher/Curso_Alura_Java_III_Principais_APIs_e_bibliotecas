@@ -34,7 +34,7 @@ public class TestaColecoes {
 		ArrayList<Conta> contas = new ArrayList<Conta>();
 		Conta c1 = new Conta(500);
 		Conta c2 = new Conta(700);
-		
+		 
 		contas.add(c1);
 		contas.add(c2);
 		
