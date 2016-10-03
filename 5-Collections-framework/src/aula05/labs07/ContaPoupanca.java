@@ -1,33 +1,34 @@
 package aula05.labs07;
 
-public class ContaPoupanca extends Conta /*implements Comparable<ContaPoupanca>*/{
+public class ContaPoupanca extends Conta implements Comparable<ContaPoupanca>{
 
 	public double saldo;
 	public Conta contaDestino;
-	private String nomeDOno;
+	private String nomeCliente;
 	
 	
 	//fiz ajuste na implementação de Conta - "desativei" comparable da implementação
-	public ContaPoupanca(double saldo, String nomeDOno) {
+	public ContaPoupanca(double saldo, String nomeCliente) {
 		super(saldo);
-		this.setNomeDOno(nomeDOno);
+		this.setnomeCliente(nomeCliente);
 	}
 	
 	public void depositar(double valor){
 		saldo+= valor;
 	}
 
-/*	@Override
+	@Override
 	public int compareTo(ContaPoupanca o) {
-		return this.getNumero() - o.getNumero();
-	}
-*/
-	public String getNomeDOno() {
-		return nomeDOno;
+		//return this.getNumero() - o.getNumero();
+		return this.nomeCliente.compareTo(o.nomeCliente);
 	}
 
-	public void setNomeDOno(String nomeDOno) {
-		this.nomeDOno = nomeDOno;
+	public String getnomeCliente() {
+		return nomeCliente;
+	}
+
+	public void setnomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
 	}
 	
 	
