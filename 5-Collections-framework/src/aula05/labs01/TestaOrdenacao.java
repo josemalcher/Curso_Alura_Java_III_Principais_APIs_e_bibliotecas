@@ -1,7 +1,5 @@
 package aula05.labs01;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -9,7 +7,8 @@ import java.util.List;
 public class TestaOrdenacao {
 	public static void main(String[] args) {
 
-		List<ContaPoupanca> contas = new ArrayList<ContaPoupanca>();
+		//List<ContaPoupanca> contas = new ArrayList<ContaPoupanca>();
+		List<ContaPoupanca> contas = new LinkedList<ContaPoupanca>();
 		
 		ContaPoupanca c1 = new ContaPoupanca(400, "Jose");
 		c1.deposita(1500);
