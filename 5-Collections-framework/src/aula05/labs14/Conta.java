@@ -62,7 +62,7 @@ public class Conta /*implements Comparable<Conta>*/{
 		return "Conta [saldo=" + saldo + "]";
 	}
 
-	@Override
+/*	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
@@ -84,7 +84,7 @@ public class Conta /*implements Comparable<Conta>*/{
 		if (Double.doubleToLongBits(saldo) != Double.doubleToLongBits(other.saldo))
 			return false;
 		return true;
-	}
+	}*/
 
 /*	//implemetando comparação de objetos - referencias de saldos contas
 	@Override
