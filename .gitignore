@@ -27,6 +27,11 @@ RemoteSystemsTempFiles/
 5-Collections-framework/.classpath
 5-Collections-framework/.project
 
+6-Threads/bin
+6-Threads/.settings
+6-Threads/.classpath
+6-Threads/.project
+
 #bin
 #.settings
 #.classpath
