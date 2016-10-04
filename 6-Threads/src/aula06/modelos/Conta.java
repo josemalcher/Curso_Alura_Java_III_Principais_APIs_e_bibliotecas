@@ -31,7 +31,7 @@ public class Conta /*implements Comparable<Conta>*/{
 	 * Classe que realiza o deposito (AUla 2 - javadoc)
 	 * @param valorDeposito
 	 */
-	public void deposita(double valorDeposito){
+	public synchronized void deposita(double valorDeposito){
 		this.saldo += valorDeposito;
 	}
 	
