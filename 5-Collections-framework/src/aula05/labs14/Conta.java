@@ -9,6 +9,7 @@ package aula05.labs14;
 public class Conta /*implements Comparable<Conta>*/{
 	protected double saldo;
 	private int numero;
+	private String nome;
 	
 	public Conta(){
 		
@@ -100,6 +101,14 @@ public class Conta /*implements Comparable<Conta>*/{
 
 	public void setNumero(int numero) {
 		this.numero = numero;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 	
 	
