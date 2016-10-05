@@ -2,6 +2,8 @@ package aula06.labs02;
 
 import java.util.Collection;
 
+
+
 public class ProduzMensagens implements Runnable {
 
 	private int comeco;
@@ -24,7 +26,9 @@ public class ProduzMensagens implements Runnable {
 		
 		for (int i = comeco; i < fim  ; i++) {
 			 
-			mensagens.add("Mensagem " + i);
+			synchronized(mensagens){
+				mensagens.add("Mensagem " + i);
+			}
 			
 		}
 
